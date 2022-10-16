@@ -85,7 +85,7 @@ function SpotsSearchPage() {
               balloonContentHeader: spot.dataValues.name,
               balloonContentBody: [
                 spot.dataValues.description,
-                `<br>See <a href="http://localhost:3000/spots/${spot.dataValues.id}">more...</a>`
+                `<br>See <a href="/spots/${spot.dataValues.id}">more...</a>`
               ].join(''),
             },
             {
