@@ -1,0 +1,26 @@
+#map {
+    width: 500px;
+    height: 400px;
+}
+
+#marker {
+    background-image: url('./map_pin.svg');
+    width: 33px;
+    height: 36px;
+    position: absolute;
+}
+
+.soundSpot__dragger {
+  margin-top: 40px;
+}
+.ymaps-2-1-79-inner-panes {
+    border-radius: 15px;
+}
+.ymaps-2-1-79-map .ymaps-2-1-79-i-ua_js_yes .ymaps-2-1-79-map-bg .ymaps-2-1-79-islets_map-lang-en {
+    border-radius: 15px;
+}
+
+.draggerText {
+    margin-left: 40px;
+    font-size: 20px;
+}

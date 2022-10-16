@@ -1,0 +1,56 @@
+.soundSpot__mainpage_container {
+  min-height: 78vh;
+}
+
+.carousel {
+  width: 320px;
+  height: 450px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.carouselContainer {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.d-block {
+  width: 350px;
+  height: 450px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.mainPageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.soundSpot__mainpage_subheader-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0px 20px 0px;
+}
+.soundSpot__mainpage_subheader-text p {
+  font-size: 26px;
+}
+
+p {
+  margin: 0px;
+}
+
+.carousel-caption h3 {
+  font-size: 30px;
+}
+
+.mainPageContainer p {
+  color: #000000;
+  font-weight: 500;
+}
+
+.mainPageContainer span {
+  color: #BE1111;
+}

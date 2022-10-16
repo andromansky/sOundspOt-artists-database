@@ -1,0 +1,14 @@
+.delete-modal-title {
+  font-size: 1.5rem;
+}
+
+.modal-button {
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal-button .btn {
+  margin: 2px;
+  font-size: 22px;
+}

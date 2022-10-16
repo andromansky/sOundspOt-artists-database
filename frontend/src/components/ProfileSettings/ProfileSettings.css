@@ -1,0 +1,120 @@
+.profile-settings-gallery{
+    min-height: 78vh;
+    display: flex;
+    flex-direction: row;
+    /* padding: 2vh 0; */
+    justify-content: space-between;
+}
+
+.prof-set-inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-settings{
+  margin-top: 100px;
+    min-width: 30%;
+    text-align: center;
+}
+
+.change-location{
+    min-width: 30%;
+}
+
+.prof-settings-input{
+    font-size: 22px;
+    border-bottom: 2px solid;
+    height: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 80%;
+}
+.prof-settings-input:focus{
+  background-color: rgba(85, 85, 82, 0.1);
+}
+
+.prof-settings-button {
+  height: 50px;
+  width: 200px;
+  border-radius: 8px;
+  font-size: 22px;
+  color: #000000;
+  transition: 0.5s;
+}
+.prof-settings-button:hover {
+  background-color: #BE1111;
+  color: #ffffff;
+  transition: 0.5s;
+}
+.prof-settings-button:active {
+  background-color: #BE1111;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.edit-photo-button {
+  height: 50px;
+  width: 200px;
+  border-radius: 8px;
+  font-size: 22px;
+  color: #000000;
+  transition: 0.5s;
+}
+.edit-photo-button:hover {
+  background-color: #BE1111;
+  color: #ffffff;
+  transition: 0.5s;
+}
+.edit-photo-button:active {
+  background-color: #BE1111;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.editphoto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    min-width: 30%;
+    text-align: center;
+}
+
+.update-photo-form{
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+}
+
+.upd-photo-input{
+    font-size: 25px;
+    border: 2px solid;
+    border-radius: 15px;
+    height: 40px;
+    text-align: center;
+    width: 80%;
+}
+
+.user-img-container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.user-img-change{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 200px;
+}
+
+.prof-settings-message{
+    height: 80px;
+    padding: 20px;
+}
+
+.setting-help-text{
+    font-size: 18px;
+}

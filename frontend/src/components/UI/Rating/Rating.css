@@ -1,0 +1,22 @@
+/* .react-star-rate {
+  color: black;
+}
+
+.react-star-rate--ltr {
+  color: violet;
+}
+.react-star-rate__star--zero {
+  color: violet;
+}
+.react-star-rate__star--half {
+  color: violet;
+} */
+.react-star-rate__star--full {
+  color: violet;
+}
+/* .react-star-rate__star__first {
+  color: black;
+} */
+/* .react-star-rate__star__second {
+  color: black;
+}  */

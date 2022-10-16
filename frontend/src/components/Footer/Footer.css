@@ -1,0 +1,28 @@
+.soundSpot__footer {
+  background-color: #000000;
+  color: #ffffff;
+  height: 10vh;
+  padding: 0px 40px 0px 20px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.soundSpot__footer .right {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.soundSpot__footer .left {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.soundSpot__footer .soundSpot__footer_ul {
+  height: 100%;
+}
+.soundSpot__footer .soundSpot__footer_li {
+  height: 100%;
+}

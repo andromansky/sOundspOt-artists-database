@@ -1,0 +1,47 @@
+.user-demo-cont{
+  display: flex;
+  min-height: 78vh;
+}
+
+.demo-container{
+  width: 60%;
+  height: 100%;
+  flex: 3;
+  margin: 20px 300px 20px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-input {
+  font-size: 22px;
+  border: 2px solid;
+  border-radius: 5px;
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.demos-box {
+  margin-top: 20px;
+}
+
+.back-button{
+  flex: 1;
+  background-color: white;
+  font-size: 22px;
+  height: 20px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+.soundSpot__addUser_backButton {
+  margin-top: 68px;
+}
+
+.player {
+  position: absolute;
+  top: 110px;
+  width: 310px !important;
+  height: 90px;
+  bottom: 900px;
+  left: 40px
+}

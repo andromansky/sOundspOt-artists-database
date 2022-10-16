@@ -1,0 +1,132 @@
+.profile-container{
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  min-height: 78vh;
+}
+
+.name-rating-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  margin: 0px 0px 60px 0px;
+}
+
+.soundSpot_rating-container {
+  display: flex;
+  flex: 4;
+}
+.soundSpot_rating-container ul {
+  display: flex;
+}
+.soundSpot_rating-container ul li {
+  align-items: center;
+}
+.soundSpot_profile-about {
+  width: 70%;
+}
+
+.left-prof-box{
+  display: flex;
+  flex-direction: column;
+}
+.left-prof-box .name-rating-box .soundSpot__username {
+  flex: 1;
+  font-size: 32px;
+  font-weight: 500;
+  height: 100%;
+  align-self: baseline;
+}
+.left-prof-box .name-rating-box .soundSpot_rating-container {
+  flex: 3;
+  font-size: 32px;
+  align-self: center;
+}
+.soundSpot__editProfileTag {
+  font-size: 20px;
+  color: #BE1111;
+  font-weight: 400;
+  align-self: baseline;
+}
+
+.soundSpot__editProfileTag:hover {
+  font-weight: 450;
+}
+
+/* нужно различие для своего профиля и для профиля другого человека */
+/* .react-star-rate__star__first.go79043580 {
+  cursor: default;
+}
+.react-star-rate__star__second.go4038925149.go4038925149 {
+  cursor: default;
+} */
+
+.soundSpot_rating-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.upper-inf-box{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0px 30px 0px;
+}
+.upper-inf-box h5{
+  font-size: 26px;
+}
+.upper-inf-box p{
+  font-size: 20px;
+}
+
+.lower-inf-box h5{
+  font-size: 26px;
+}
+.lower-inf-box p{
+  font-size: 20px;
+}
+
+.right-box {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-inf {
+  color: black;
+}
+
+.profile-inf:hover {
+  font-weight: 450;
+}
+
+.user-img {
+  width: 250px;
+  height:250px;
+  object-fit: cover;
+  border-radius: 150px;
+}
+
+.modal-click-img{
+  float: right;
+}
+
+.user-checkout-contact-link{
+    color:#BE1111;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.plus-button{
+  width: 25px;
+  margin-left: 5px;
+  padding-bottom: 6px;
+  cursor: pointer;
+}
+
+.profile-inf-bands{
+  cursor: pointer;
+}
+
+.profile-inf-bands:hover{
+  font-weight: 450;
+}
+

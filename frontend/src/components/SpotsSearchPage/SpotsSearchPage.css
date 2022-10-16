@@ -1,0 +1,69 @@
+.soundSpot__spotsSearch-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 50px;
+  min-height: 78vh;
+  font-size: 20px;
+}
+.soundSpot__spotsSearch-container input {
+  width: 100%;
+  align-self: center;
+  border: 2px solid #000;
+  min-height: 50px;
+  border-radius: 5px 0px 0px 5px;
+  padding: 0px 10px;
+  font-size: 24px;
+}
+.soundSpot__spotsSearch-container select {
+  border: 2px solid #000;
+  min-height: 100%;
+  border-radius: 0px 5px 5px 0px;
+  font-size: 24px;
+  background-color: #ffffff;
+  text-align: center;
+}
+.soundSpot_spotsSearch-input-sort-container {
+  margin: 20px 0px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.soundSpot__spotsSearch_content-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 100%;
+}
+
+.soundSpot__spotsSearch_results-container {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+.soundSpot__spotRow {
+  border-bottom: 1px solid #000000;
+  cursor: pointer;
+  margin: 0px 20px 10px 0px;
+}
+
+.soundSpot__spotRow:hover{
+  background-color: rgba(85, 85, 82, 0.1);
+}
+
+.soundSpot__spotRow-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+.soundSpot__spotRow-description {
+  font-size: 20px;
+}
+
+.soundSpot__spotsSearch_yandex-container {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.soundSpot__spotsSearch_myMap {
+  flex: 1;
+}

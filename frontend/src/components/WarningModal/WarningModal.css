@@ -1,0 +1,22 @@
+.warn-modal-body {
+
+}
+
+.link-to-auth {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.soundSpot__warning-modal .modal-dialog {
+  width: 40%;
+}
+
+.active-link-to-auth {
+  color: red;
+}
+
+.warn-modal-body a {
+  color: #BE1111;
+  margin-right: 20px;
+}
+

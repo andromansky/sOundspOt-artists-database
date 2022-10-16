@@ -1,0 +1,134 @@
+.soundSpot__bandSearch-container {
+  min-height: 78vh;
+  margin: 0px 50px;
+}
+
+.input-group {
+  margin-top: 20px;
+  height: 50px;
+  box-shadow: none;
+
+}
+.form-control {
+  height: 50px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  box-shadow: none;
+  font-size: 24px;
+}
+.form-control:hover {
+  box-shadow: none;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: black;
+}
+.form-control:active {
+  box-shadow: none;
+}
+
+.dropdown-toggle .btn .btn-outline-secondary {
+  height: 50px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+}
+.btn-outline-secondary {
+  font-size: 24px;
+  border: 2px solid #000000;
+  color: #000000;
+  background-color: #ffffff;
+}
+.input-group .dropdown-toggle:hover {
+  background-color: #BE1111;
+  border: 2px solid #BE1111;
+  color: #ffffff;
+}
+.input-group .dropdown-toggle:focus {
+  background-color: #BE1111;
+  border: 2px solid #BE1111;
+  color: #ffffff;
+}
+
+.searchImage {
+    width: 50px;
+    height: 50px;
+}
+
+.stringOnSearchPage {
+  padding: 0px 0px 2px 0px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.searchContainer {
+  padding: 0px 20px;
+  /* margin-top: 40px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.yellowBack {
+    background-color: #BE1111;
+    color: #ffffff;
+}
+
+/* .soundSpot__btn_filter {
+  font-size: 20px;
+  background-color: #ffffff;
+  border: 2px solid #BE1111;
+  margin: 0px 10px 10px 0px;
+  padding: 4px 8px;
+  border-radius: 5px;
+}
+.soundSpot__btn_filter-chosen {
+  background-color: #BE1111;
+  color: #ffffff;
+} */
+
+.tagsContainer {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+.artistsList {
+  margin: 0px 30px 20px 0px;
+  flex: 4;
+}
+
+.bandinfoOnSearchPage {
+  margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bandinfoTop {
+  font-weight: 600;
+  width: 100%;
+}
+.bandinfoTop p {
+  font-size: 24px;
+}
+.bandinfoBottom p {
+  font-size: 20px;
+}
+
+.genresTags button {
+  font-size: 24px;
+  color: #BE1111;
+  border: 2px solid #BE1111;
+  margin: 0px 5px 5px 0px;
+}
+.genresTags .genreFilter:hover {
+  background-color: #BE1111;
+  border-color: #BE1111;
+}
+.genresTags .btn-danger {
+  background-color: #BE1111;
+  color: #ffffff;
+}

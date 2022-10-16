@@ -1,0 +1,46 @@
+/* 
+.log-reg-div{
+    font-size: 25px;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background: black;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.input-flex{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.log-reg-input{
+    font-size: 25px;
+    border-radius: 5px;
+    height: 40px;
+    text-align: center;
+}
+
+.log-reg-button{
+    font-size: 25px;
+    border-radius: 5px;
+    height: 50px;
+    width: 100%
+}
+
+.sign-in-div{
+    margin-top:20px;
+
+}
+
+p{
+    color:white;
+}
+.reg-message{
+    height: 80px;
+} */
+

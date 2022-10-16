@@ -1,0 +1,26 @@
+.tagsContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.soundSpot__userEditProfile_modal .modal-dialog {
+  max-width: 100%;
+  width: 80%;
+}
+
+.soundSpot__editProfile_submitButton.btn-primary {
+  margin: 0 auto;
+  border: none;
+  font-size: 24px;
+  background-color: #BE1111;
+  width: 30%;
+  height: 60px;
+}
+.soundSpot__editProfile_submitButton.btn-primary:hover {
+  background-color: #BE1111;
+}
+.soundSpot__editProfile_submitButton.btn-primary:active {
+  background-color: #BE1111;
+}

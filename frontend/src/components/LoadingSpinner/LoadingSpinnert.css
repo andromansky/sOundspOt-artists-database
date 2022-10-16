@@ -1,0 +1,12 @@
+.spinner-container {
+  min-height: 78vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-spinner {
+  height: 60px;
+  width: 60px;
+  size: 30px;
+}

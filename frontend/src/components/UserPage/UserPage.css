@@ -1,0 +1,116 @@
+.user-container {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  min-height: 78vh;
+}
+
+.soundSpot__username-userPage {
+  margin-right: 20px;
+  font-size: 32px;
+  font-weight: 500;
+  height: 100%;
+  align-self: baseline;
+}
+
+.rating-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  margin: 0px 0px 60px 0px;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.upper-inf-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0px 30px 0px;
+}
+.upper-inf-container h5 {
+  font-size: 26px;
+}
+.upper-inf-container p {
+  font-size: 20px;
+}
+
+.lower-inf-container {
+  width: 70%;
+}
+.lower-inf-container h5 {
+  font-size: 26px;
+}
+.lower-inf-container p {
+  font-size: 20px;
+}
+
+.user-inf {
+  color: black;
+}
+
+.user-inf-myband:hover{
+  font-weight: 500;
+}
+
+.band-text{
+  cursor: pointer;
+}
+
+.user-img-container{
+  border-radius: 50px;
+  margin: 0px 0px 30px 0px;
+}
+.user-img {
+  width: 200px;
+  height:200px;
+  border-radius: 150px;
+}
+
+.rating-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.soundSpot__checkMyDemos {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.soundSpot__checkMyDemos_link {
+  color: #BE1111;
+  text-decoration: none;
+}
+.soundSpot__checkMyDemos_link:hover {
+  color: #BE1111;
+  text-decoration: none;
+  font-weight: 600;
+}
+.soundSpot__checkMyDemos_link:active {
+  color: #BE1111;
+  text-decoration: none;
+}
+
+.button-move-back-users{
+  color: #BE1111;
+  text-decoration: none;
+  font-size: 22px;
+  text-align: left;
+  align-self: flex-end;
+}
+
+.button-move-back-users:hover{
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.inf-box-tg{
+  width: 20%;
+}
+
+.user-inf:hover{
+  font-weight: 500;
+}

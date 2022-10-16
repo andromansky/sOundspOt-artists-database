@@ -1,0 +1,32 @@
+.demo-box{
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+  align-items: center;
+  margin-top: 20px;
+  border-bottom: 1px solid;
+}
+
+.demo-name{
+  color: black;
+}
+
+.demo-inf{
+  
+}
+
+.player-ikon{
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+.ikon-container {
+  display: flex;
+  justify-content:flex-end;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.delete-ikon{
+  width: 25px;
+}
