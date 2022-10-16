@@ -29,7 +29,7 @@ function BandPage() {
           <div className="band-name"><p>{band && band.name}</p></div>
           <div className="button-move-back" onClick={() => navigate(-1)}>Move Back</div>
         </div>
-        <div className="band-photo"><img className="band-photo-img" src={rightPath(band.photo)} alt={band && band.name} /></div>
+        <div className="band-photo"><img className="band-photo-img" src={band && rightPath(band?.photo)} alt={band && band.name} /></div>
       </div>
       <div className="band-page-right">
         <div className="aboutBand__container">
