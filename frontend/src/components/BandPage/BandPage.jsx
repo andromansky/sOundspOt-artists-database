@@ -13,6 +13,11 @@ function BandPage() {
   const navigate = useNavigate();
   const { id } = useParams();
 
+  const rightPath = (path) => {
+    const newpath = path.slice(0, 4) === 'http' ? path : `/${path}`;
+    return newpath;
+  };
+
   useEffect(() => {
     dispatch(loadAsyncBand(Number(id)));
   }, []);
@@ -24,7 +29,7 @@ function BandPage() {
           <div className="band-name"><p>{band && band.name}</p></div>
           <div className="button-move-back" onClick={() => navigate(-1)}>Move Back</div>
         </div>
-        <div className="band-photo"><img className="band-photo-img" src={band && `/${band.photo}`} alt={band && band.name} /></div>
+        <div className="band-photo"><img className="band-photo-img" src={rightPath(band.photo)} alt={band && band.name} /></div>
       </div>
       <div className="band-page-right">
         <div className="aboutBand__container">

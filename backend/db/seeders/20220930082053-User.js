@@ -52,7 +52,7 @@ module.exports = {
         latitude: 46.436879,
         longitude: 30.750827,
         contact: 't.me/eminem',
-        photo: 'https://thesource.com/wp-content/uploads/2016/10/photo.jpg',
+        photo: 'https://www.biography.com/.image/t_share/MTQ3NjM5MTEzMTc5MjEwODI2/eminem_photo_by_dave_j_hogan_getty_images_entertainment_getty_187596325.jpg',
       },
       {
         login: 'XXXTentacion',
