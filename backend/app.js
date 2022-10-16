@@ -2,6 +2,7 @@
 require('dotenv').config();
 
 const express = require('express');
+const path = require('path');
 const { sequelize } = require('./db/models');
 const config = require('./config/config');
 
@@ -24,6 +25,9 @@ app.use('/users', usersRouter);
 app.use('/bands', bandsRouter);
 app.use('/spots', spotsRouter);
 app.use('/user', userRouter);
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../frontend/build/index.html'));
+});
 
 app.listen(PORT, async () => {
   try {
